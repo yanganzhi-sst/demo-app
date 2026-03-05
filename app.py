@@ -14,7 +14,7 @@ st.set_page_config(page_title="MindEase", layout="centered", page_icon="🌱")
 DATA_FILE = "mood_log.csv"
 
 # Gemini API Key
-GEMINI_API_KEY = "AIzaSyB5d71HayaWgpFqSGnOqWX5JkJpgK11kmQ"
+GEMINI_API_KEY = "AIzaSyAVvF7xYIKVJzUOrrOPyHklZ1Xvmc__I6A"
 genai.configure(api_key=GEMINI_API_KEY)
 GEMINI_MODEL = genai.GenerativeModel("gemini-2.5-flash")
 
